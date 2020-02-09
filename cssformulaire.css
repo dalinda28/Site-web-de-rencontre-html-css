@@ -1,0 +1,62 @@
+*{
+	font-family: Losttimoh;
+}
+
+.content{
+	width: 100%;
+
+	background-color: white;
+}
+
+h1{
+	display: inline-block;
+	width: 110%;
+	font-size: 70px;
+	text-align: center;
+	transform: translate(-140px,-20%);
+
+}
+
+h2{
+	font-size: 35px;
+}
+
+p{
+	font-size: 30px;
+}
+h3{
+	font-size: 30px;
+}
+img{
+	display: inline-block;
+	text-align: left;
+	width: 140px;
+	height: 110px;
+}
+
+.tout{
+	background-image: url("border.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.compte{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	transform: translate(50%,85%);
+}
+
+
+.cases2{
+	display: inline-block;
+	transform: translate(-50%,115%);
+}
+.cases3{
+	display: inline-block
+	vertical-align: top;
+	width: 50%;
+	margin: 200px;
+	transform: translate(20%,230%);
+}

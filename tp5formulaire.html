@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<link rel="stylesheet" type="text/css" href="cssformulaire.css">
+	<title>
+		
+	</title>
+</head>
+<body>
+
+	<h1>
+		Ma page avec les formulaire
+	</h1>
+
+	<form action="tp5formulaire.html" method="get">
+		palette<input type="color" name="X"> <br>
+		numero<input type="number" name="Y" min="0" max="5" size="100px"> <br> <!--enlever min et max pour faire size-->
+		telephone<input type="tel" name="A" value="039249283" > <br>
+		date<input type="date" name="Y"  value="1982-23-21" >  <br> <!-- il change la date -->
+		Date<input type="date" name="Z">  <br>
+		Mail<input type="mail" name="B" value="hghflzr@gmail.com" disabled placeholder="mettre ici votre adresse mail "><br><!--pour ne pas changer l'adresse mail-->
+		<input type="password" name="motdp"> <br><!--ca sera cacher--> 
+		<textarea name="message" cols="5" rows="7" autofocus=""> </textarea><br> <!--la trait pour ecire se trouver la bas sans avoir cliquer n'importe ou-->
+
+		<input type="submit" ><br>
+		<input type="image" name=""> <br>
+		Case a cocher:<label><input type="checkbox" id="C1" name="">ici</label> <br> <!--label c'est pour cliquer sur ici et aussi sur la case a cocher-->
+		<select> ou
+			<option>Option1</option>
+			<option>Option2</option>
+			<option>Option3</option>
+		</select>
+		<input type="url" name=""> <br>
+		<input type="hidden" value="blabka" name="bla"> <br>
+	</form>
+</body>
+</html>
